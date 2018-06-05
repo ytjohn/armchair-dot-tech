@@ -1,9 +1,3 @@
-[submodule "themes/ananke"]
-	path = themes/ananke
-	url = https://github.com/budparr/gohugo-theme-ananke.git
-[submodule "themes/hugo-theme-bootstrap4-blog"]
-	path = themes/hugo-theme-bootstrap4-blog
-	url = https://github.com/alanorth/hugo-theme-bootstrap4-blog.git
-[submodule "themes/after-dark"]
-	path = themes/after-dark
-	url = https://github.com/comfusion/after-dark.git
+[submodule "themes/hyde-hyde"]
+	path = themes/hyde-hyde
+	url = https://github.com/htr3n/hyde-hyde.git
