@@ -1,6 +1,6 @@
 # Hugo variables
 #
-baseurl = "http://localhost:1313"
+baseurl = "https://ytjohn.gitlab.io/yourtech-us/"
 languageCode = "en-us"
 title = "YourTech"
 theme = "hyde-hyde"
