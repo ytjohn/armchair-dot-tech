@@ -36,9 +36,12 @@ paginate = 5
     highlightjsstyle = "github"
     themeColor = "theme-base-0b"
     # layoutReverse = true
+
 ## Social Accounts
 [params.social]
+    keybase = "ytjohn"
     github = "ytjohn"
+    gitlab = "ytjohn"
     twitter = "ytjohn"
     stackoverflow = "ytjohn"
     email = "john@yourtech.us"
