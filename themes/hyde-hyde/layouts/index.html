@@ -2,23 +2,25 @@
   {{ partial "header.html" . }}
 {{- end }}
 
+
 {{ define "content" -}}
-  <div class="posts">
-  {{ range where .Data.Pages "Type" "posts" }}
-        <div class="post">
-        <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-        <span class="post-date">
-          {{- .Date.Format (.Site.Params.dateformat | default "Jan 02, 2006") -}}
-        </span>
-        {{ .Summary }}
-        {{ if .Truncated }}
-        <div class="read-more-link">
-            <a href="{{ .RelPermalink }}">Read More…</a>
-        </div>
-        {{ end }}
-        </div>
-  {{- end }}
-  </div>
+<div id="posts">
+    {{ range where .Data.Pages "Type" "posts" }}
+
+  <article class="post">
+
+    <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+    <p class="post-time">          {{- .Date.Format (.Site.Params.dateformat | default "Jan 02, 2006") -}}</p>
+    <div class="post-content">
+       <p> {{ .Description | default .Summary }}</p>
+      <a class="btn btn-default" href="{{.RelPermalink}}" id="read-more-button">
+        Read more >
+      </a>
+    </div>
+
+  </article>
+  {{ end }}
+</div>
 {{- end }}
 
 {{ define "footer" -}}

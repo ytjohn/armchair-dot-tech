@@ -12,7 +12,7 @@ slug: how-to-write-more-better
 <ol>
 <li>Always avoid alliteration.</li>
 <li>Prepositions are not words to end sentences with.</li>
-<li>Avoid cliches like the plagueÃ¢â‚¬â€they're old hat.</li>
+<li>Avoid cliches like the plague,they're old hat.</li>
 <li>Employ the vernacular.</li>
 <li>Eschew ampersands & abbreviations, etc.</li>
 <li>Parenthetical remarks (however relevant) are unnecessary.</li>

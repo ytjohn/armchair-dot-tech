@@ -6,11 +6,13 @@ title = "YourTech"
 theme = "hyde-hyde"
 # theme = "hyde"
 # theme = "after-dark"
+# theme = "strange-case"
 
 # number of posts to show on home/category/tag pages (Default: 10)
-paginate = 5
+paginate = 10
 # optionally override the site's footer with custom copyright text
 # copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
+copyright = ""
 #googleAnalytics = "UA-123-45"
 #disqusShortname = "XYW"
 
@@ -31,7 +33,9 @@ paginate = 5
     title = "YourTech"
     description = "Just your average, ordinary, everyday, super admin."
     authorimage = "/img/ytjohnthumbnail.png"
+    copyright = "© 2018 John Hogenmiller"
     dateformat = "2006-01-02"
+
     highlightjs = true
     highlightjsstyle = "github"
     themeColor = "theme-base-0b"
@@ -48,7 +52,7 @@ paginate = 5
 
 ## Main Menu
 [[menu.main]]
-    name = "Posts"
+    name = "All Posts"
     weight = 100
     identifier = "posts"
     url = "/posts/"

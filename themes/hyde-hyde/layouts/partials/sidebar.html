@@ -1,20 +1,34 @@
 <div class="sidebar">
-	<div class="container text-center sidebar-sticky">
-		<div class="sidebar-about text-center">
-			<a href="{{ .Site.BaseURL }}"><h1 class="brand">{{ .Site.Title }}</h1></a>
+	<div class="container sidebar-sticky">
+		<div class="sidebar-about">
+			<a href="{{ .Site.BaseURL }}" class="text-center"><h1 class="brand">{{ .Site.Title }}</h1></a>
 			{{ with .Site.Params.authorimage }} <img src="{{.}}" alt="Author Image" class="img-circle headshot center"> {{ end }}
-			<p class="lead">
+			<p class="text-center hidden-xs">
 				{{ with .Site.Params.description }} {{.}} {{ else }} Your site's description {{end}}
 			</p>
 		</div>
-                {{ partial "searchform.html" . }}
-		{{ partial "sidebar_menu.html" . }}
-        <p>
-		{{ partial "sidebar_social.html" . }}
-        </p>
 
-		<p class="copyright">{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}} {{.Site.Params.author}}.
-        <a href="https://creativecommons.org/licenses/by/4.0">Some Rights Reserved</a>.<br/>Built with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/htr3n/hyde-hyde">hyde-hyde</a>.{{end}}
+		<div class="text-center">{{ partial "searchform.html" . }}</div>
+
+		{{ partial "sidebar_menu.html" . }}
+
+
+		<div class="sidebar-recent hidden-xs text-left">
+			<p>Recent Posts:</p>
+			<ul>
+				{{ range first 5 .Site.Pages }}
+				<li><a href="{{.Permalink}}">{{ .Title }}</a></li>
+				{{ end }}
+			</ul>
+		</div>
+
+		<p>
+			{{ partial "sidebar_social.html" . }}
+		</p>
+
+		<p class="copyright">{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}} {{.Site.Params.author}}.<br />
+			Built with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/htr3n/hyde-hyde">hyde-hyde</a>.
+        <a href="https://creativecommons.org/licenses/by/4.0">Some Rights Reserved</a>.{{end}}
         </p>
 	</div>
 	<div>
