@@ -52,4 +52,4 @@ for the people that need them.
 
 **While I have other interests such as home remodeling and hiking, I am always interested in hearing about people's 
 tech scenarios.  If you'd like to pass along a story, ask me a question, or even retain some of my services, I would 
-recommend [getting in touch](|filename|contact.md).  My [resume](|filename|resume.md) is also available.**
+recommend [getting in touch](/contact/).  **
