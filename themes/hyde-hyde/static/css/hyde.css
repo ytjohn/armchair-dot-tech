@@ -283,3 +283,37 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* Retro Orange */
+.theme-base-yt01  {
+  background-color: #222;
+  color: #FF9100;
+}
+
+/* highlight.js inherits background-color instead of specifying */
+/* grey colors seemed to work best */
+// theme-base-yt01 [class^='hljs-'], [class*='hljs'] {
+//  background-color: grey !important;
+// }
+
+.theme-base-yt01 .sidebar {
+   background-color: #222;
+   color: yellow;
+}
+
+.theme-base-yt01 .content strong {
+  color: #FF9100;
+}
+
+.theme-base-yt01 .content a,
+.theme-base-yt01 .related-posts li a:hover {
+  color: yellow;
+}
+.theme-base-yt01 .post-time, .post-date {
+  color: #74d76e;
+}
+
+.theme-base-yt01 .content h1, h2, h3, h4, h5, h6 {
+  color: yellow;
+}
+

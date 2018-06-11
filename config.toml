@@ -37,8 +37,11 @@ copyright = ""
     dateformat = "2006-01-02"
 
     highlightjs = true
-    highlightjsstyle = "github"
-    themeColor = "theme-base-0b"
+    # highlightjsstyle = "github"
+    highlightjsstyle = "tomorrow-night-bright"
+
+    # themeColor = "theme-base-0b"
+    themeColor = "theme-base-yt01"
     # layoutReverse = true
 
 ## Social Accounts
