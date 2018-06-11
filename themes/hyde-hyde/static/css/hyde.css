@@ -292,9 +292,9 @@ a.sidebar-nav-item:focus {
 
 /* highlight.js inherits background-color instead of specifying */
 /* grey colors seemed to work best */
-// theme-base-yt01 [class^='hljs-'], [class*='hljs'] {
-//  background-color: grey !important;
-// }
+.theme-base-yt01 [class^='hljs-'], [class*='hljs'] {
+  background-color: #222 !important;
+}
 
 .theme-base-yt01 .sidebar {
    background-color: #222;
