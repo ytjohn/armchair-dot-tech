@@ -35,7 +35,7 @@ copyright = ""
     authorimage = "/img/ytjohnthumbnail.png"
     copyright = "© 2018 John Hogenmiller"
     dateformat = "2006-01-02"
-
+    sourceurl = "https://gitlab.com/ytjohn/yourtech-us/tree/master/content" 
     highlightjs = true
     # highlightjsstyle = "github"
     highlightjsstyle = "tomorrow-night-bright"
