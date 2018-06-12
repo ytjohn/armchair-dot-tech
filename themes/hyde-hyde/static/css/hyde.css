@@ -288,8 +288,6 @@ a.sidebar-nav-item:focus {
 .theme-base-yt01  {
   background-color: #222;
   color: #FF9900;
-  font-family: 'Roboto Mono', 'sans-serif';
-  font-size: 16px;
 }
 
 /* highlight.js inherits background-color instead of specifying */
