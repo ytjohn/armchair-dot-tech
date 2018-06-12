@@ -7,6 +7,10 @@
       {{ if not .Date.IsZero }} 
         <i class="fas fa-calendar-alt"></i> {{ .Date.Format (.Site.Params.dateformat | default "Jan 02, 2006") -}}
       {{ end }}
+      <!-- source code link -->
+      {{ if .Site.Params.sourceurl }}
+       &nbsp; <i class="fa fa-file-code" aria-hidden="true"></i> <a class="meta" href="{{ .Site.Params.sourceurl }}/{{ .File.Path }}">source</a>
+      {{ end }}
       <!-- categories -->
       {{ with .Params.categories }}
         {{ $total := len . }}
@@ -30,7 +34,6 @@
         {{ end }}
       {{ end }}
       {{ end }}
-      | <a class="meta" href="{{ .Site.Params.sourceurl }}/{{ .File.Path }}">source</a>
       </span>  
   </div>    
   {{ end }}
