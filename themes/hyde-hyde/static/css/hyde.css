@@ -287,7 +287,9 @@ a.sidebar-nav-item:focus {
 /* Retro Orange */
 .theme-base-yt01  {
   background-color: #222;
-  color: #FF9100;
+  color: #FF9900;
+  font-family: 'Roboto Mono', 'sans-serif';
+  font-size: 16px;
 }
 
 /* highlight.js inherits background-color instead of specifying */
@@ -317,3 +319,6 @@ a.sidebar-nav-item:focus {
   color: yellow;
 }
 
+.theme-base-yt01 ul {
+   list-style-image: url('/img/bullet.gif');
+}
