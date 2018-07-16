@@ -4,7 +4,10 @@ author: ytjohn
 date: 2018-07-16 12:35:40
 layout: post
 slug: homelab-reimagined
-tags: homelab, ansible, reimagine
+tags: 
+  - homelab
+  - ansible
+  - reimagine
 ---
 
 For years I've run servers, raspberry pis, NAS, IP cameras and managed switches out of my home. For the most part, it has been unmanaged. I've moved some of the deployment and automation under ansible roles, and I've made half-hearted attempts at adding monitoring and documentation, but nothing too permanent. I recently acquired a new server in the form of a Dell R710 and I've decided to use this system to sort of redesign and re-imagine my homelab from the ground up.
