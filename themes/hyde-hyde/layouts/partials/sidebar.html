@@ -1,36 +1,36 @@
+<!-- Sidebar -->
 <div class="sidebar">
-	<div class="container sidebar-sticky">
-		<div class="sidebar-about">
-			<a href="{{ .Site.BaseURL }}" class="text-center"><h1 class="brand">{{ .Site.Title }}</h1></a>
-			{{ with .Site.Params.authorimage }} <img src="{{.}}" alt="Author Image" class="img-circle headshot center"> {{ end }}
-			<p class="text-center hidden-xs">
-				{{ with .Site.Params.description }} {{.}} {{ else }} Your site's description {{end}}
-			</p>
-		</div>
-
-		<div class="text-center">{{ partial "searchform.html" . }}</div>
-
-		{{ partial "sidebar_menu.html" . }}
-
-
-		<div class="sidebar-recent hidden-xs text-left">
-			<p>Recent Posts:</p>
-			<ul>
-				{{ range first 5 .Site.Pages }}
-				<li><a href="{{.Permalink}}">{{ .Title }}</a></li>
-				{{ end }}
-			</ul>
-		</div>
-
-		<p>
-			{{ partial "sidebar_social.html" . }}
-		</p>
-
-		<p class="copyright">{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}} {{.Site.Params.author}}.<br />
-			Built with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/htr3n/hyde-hyde">hyde-hyde</a>.
-        <a href="https://creativecommons.org/licenses/by/4.0">Some Rights Reserved</a>.{{end}}
-        </p>
-	</div>
-	<div>
-	</div>
+  <div class="container {{ with .Site.Params.sidebarSticky }}sidebar-sticky{{ end }}">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+      </span>
+      {{ if and (isset .Site.Params "authorimage") (not (isset .Site.Params.social "gravatar")) }}
+        {{ with .Site.Params.authorimage }}
+        {{ $strippedSlash := ($.Site.Params.authorimage | replaceRE "^(/)+(.*)" "$2") }}
+        {{ $authorImage := (printf "%s%s" $.Site.BaseURL $strippedSlash) }}
+        <div class="author-image">
+          <img src="{{$authorImage}}" alt="Author Image" class="img--circle img--headshot element--center">
+        </div>
+        {{ end }}
+      {{ end }}
+      {{ with .Site.Params.social.gravatar}}
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/{{md5 .}}?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      {{ end }}
+      <p class="site__description">
+        {{ with .Site.Params.description }} {{.}} {{end}}
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">{{ .Site.Title }}</label>
+      <div class="menu-content">
+        {{ partial "sidebar/menu.html" . }}
+        {{ partial "sidebar/social.html" . }}
+      </div>
+    </div>
+    {{ partial "sidebar/copyright.html" . }}
+  </div>
 </div>

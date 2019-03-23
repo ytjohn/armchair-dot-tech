@@ -1,0 +1,9 @@
+[submodule "themes/hugo-flex"]
+	path = themes/hugo-flex
+	url = https://github.com/de-souza/hugo-flex.git
+[submodule "themes/base16"]
+	path = themes/base16
+	url = https://github.com/htdvisser/hugo-base16-theme.git
+[submodule "themes/casper"]
+	path = themes/casper
+	url = https://github.com/vjeantet/hugo-theme-casper
