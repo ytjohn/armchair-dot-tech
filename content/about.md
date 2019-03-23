@@ -5,7 +5,6 @@ layout: page
 permalink: https://www.yourtech.us/about
 ---
 
-
  >_"It is the way I think. I am a very bottom-up thinker. If you give me the right kind of Tinker Toys, I can imagine 
  the building. I can sit there and see primitives and recognize their power to build structures a half mile high, if 
  only I had just one more to make it functionally complete. I can see those kinds of things."_  - Ken Thompson  
