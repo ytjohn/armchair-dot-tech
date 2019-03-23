@@ -35,7 +35,7 @@ copyright = ""
 ## Site Settings
 [params]
     author = "John Hogenmiller"
-    title = "YourTech"
+    title = "Armchair Technician"
     # description = "Just your average, ordinary, everyday, super admin."
     subtitle =  "Just your average, ordinary, everyday, super admin."
     authorimage = "/img/ytjohnthumbnail.png"
@@ -57,10 +57,10 @@ copyright = ""
     authorWebsite = "https://armchair.tech"
     authorDescription = "Just your average, ordinary, everyday, super admin."
     
-    orgWebsite = "https://www.telematika.org"
-    orgDescription = "Here is a description placeholder for your org"
+    orgWebsite = "https://armchair.tech"
+    orgDescription = "Just your average, ordinary, everyday, super admin."
 
-    singleViewStyle = "casper"
+    # singleViewStyle = "casper"
 
 ## Social Accounts
 [params.social]

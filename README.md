@@ -1,13 +1,4 @@
-# yourtech-us
+# armchair-dot-tech
 YourTech.us website content
 
-This is the source code for https://yourtech.us. The site is currently written in Hugo.
-
-categories:  
-
-- workshop
-- radio
-- homelab
-    linux, ansible, raspi, home monitoring
-- 
-
+This is the source code for https://www.armchair.tech. The site is currently written in Hugo.
