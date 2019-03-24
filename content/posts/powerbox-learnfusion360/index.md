@@ -35,6 +35,10 @@ I made each component (case, battery, inverter, and power supply) separately.
 - Power Supply: [MegaWatt 30 AMP S-350-12](http://www.megawattpowersupplies.com/)
 - Solar Charger [West Mountain Radio Epic PWRgate](http://www.westmountainradio.com/product_info.php?products_id=epic-pwrgate)
 
+If you want to see the ~~build~~ modeling process, check out the following video. If you want to learn more about what I learned while doing that, read on after the video.
+
+{{<youtube 2xo_KdunTuU>}}
+
 They're all boxes. The size of the boxes is exact, you can specify the size at creation. However a lot of  the features (like the power supply fan) are just places approximately. Once you make a box, you can do things like select a face and make an offset to account for the thickness of the wall, then a 'push-pull' to hollow out the box. That's the case. You can put holes in boxes - did that to represent fans on the power supply and case. The most "fun' was the inverter, where I chamfered the corners, put decals on for outlets, and cylinders on the back to represent the wire terminals
 
 Getting the components into the case was a bit tricky. There are ways you can move "to object" and select the plane you're moving on and the distance from an object's face. But I did a bunch of free movement. You can just drag them around with the mouse. Then you rotate your view and realize your power supply is poking through the bottom of the case and the battery is floating 8 feet above it. Then you can select the component again, press M to move, and move it along a plane.  I just kept moving them around until they look lined up with the bottom of the case, and I have a buffer space between each component and the walls of the case. I did this instead of "attaching" them to the case because I ended up moving the battery and power supply around a dozen times, finally rotating the battery so I had space to slide an inverter in.
@@ -56,7 +60,3 @@ Last night, I tried adding a solar charger (epic pwrgate), and to start labeling
 Also, there are some ghost planes/faces floating around that I encounter sometimes.
 
 {{< figure src="inverterwithghostfaces.png" caption="ghost faces">}}
-
-## Building the Box
-
-{{<youtube 2xo_KdunTuU>}}
