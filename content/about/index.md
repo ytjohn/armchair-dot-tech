@@ -5,7 +5,7 @@ layout: page
 permalink: https://www.armchair.tech/about
 ---
 
-Down below is a well outdated professional history, but all you really need to know is that in in 2019 I decided to setup two sites. On these sites, I write a lot of words about things I don't understand. There is [armchair.tech](https://armchair.tech) where I write about building or modifying physical things in the real world. Then there is [armchair.dev] where I write about developing software. I don't really know what I'm doing, so I write about as if I did. There is a hope that in doing so, I come to understand it a bit better, and maybe someone reading one of these posts will see the struggles I went through and decide not to repeat them.
+Down below is a well outdated professional history, but all you really need to know is that in in 2019 I decided to setup two sites. On these sites, I write a lot of words about things I don't understand. There is [armchair.tech](https://armchair.tech) where I write about building or modifying physical things in the real world. Then there is [armchair.dev](https://armchair.dev) where I write about developing software. I don't really know what I'm doing, so I write about as if I did. There is a hope that in doing so, I come to understand it a bit better, and maybe someone reading one of these posts will see the struggles I went through and decide not to repeat them.
 
 >_"It is the way I think. I am a very bottom-up thinker. If you give me the right kind of Tinker Toys, I can imagine the building. I can sit there and see primitives and recognize their power to build structures a half mile high, if only I had just one more to make it functionally complete. I can see those kinds of things."_  - Ken Thompson
 
