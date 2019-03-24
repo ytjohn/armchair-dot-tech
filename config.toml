@@ -2,7 +2,7 @@
 #
 baseurl = "https://www.armchair.tech/"
 languageCode = "en-us"
-title = "armchairtech"
+title = "armchair.tech"
 # theme = "retrofulhugo"
 theme = "hyde-hyde"
 # theme = "hyde"
@@ -40,7 +40,7 @@ copyright = ""
     subtitle =  "Just your average, ordinary, everyday, super admin."
     authorimage = "/img/ytjohnthumbnail.png"
     logo = "img/ytjohnthumbnail.png"
-    copyright = "© 2019 John Hogenmiller"
+    copyright = "John Hogenmiller"
     dateformat = "2006-01-02"
     sourceurl = "https://gitlab.com/ytjohn/yourtech-us/tree/master/content" 
     highlightjs = true
@@ -70,12 +70,6 @@ copyright = ""
     twitter = "thearmchairtech"
     stackoverflow = "ytjohn"
     email = "john@yourtech.us"
-
-
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 200
 
 [[menu.main]]
     name = "All Posts"
