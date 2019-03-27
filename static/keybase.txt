@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ytjohn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.armchair.tech
+  * I am ytjohn (https://keybase.io/ytjohn) on keybase.
+  * I have a public key ASCjZyYrR1VXMlTIN7wRoxl9_3ngh2fFAfDQgqhgZLxQDAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010108adea7156f6b3d0258da36fb23ca7c685b11156ae92d577b46e1af26fd805a40a",
+      "host": "keybase.io",
+      "kid": "0120a367262b4755573254c837bc11a3197dff79e08767c501f0d082a86064bc500c0a",
+      "uid": "73dda13d5f10f1b2656857b731fb4b19",
+      "username": "ytjohn"
+    },
+    "merkle_root": {
+      "ctime": 1553729740,
+      "hash": "56e461049994fb6fb8c174f6ae16c6b6fe651eb5e581fceced964a3bb5d145d85b1f2671f6cd254d30882c3101987805bda63860eb0b1c5b8091dac11e87c7b8",
+      "hash_meta": "c2e1220b7d46ba3c2d37e963d43cd32fb8a8c72d4185ce2f2f1af42f10e9581d",
+      "seqno": 5040643
+    },
+    "service": {
+      "entropy": "NlAB/CkXzGFoz0YteV5D6yoS",
+      "hostname": "www.armchair.tech",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1553729745,
+  "expire_in": 504576000,
+  "prev": "e8b3a43aeff5a0277c6a426e2dda024c1b729e3128d04ebf767e82310d11e75c",
+  "seqno": 51,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgo2cmK0dVVzJUyDe8EaMZff954IdnxQHw0IKoYGS8UAwKp3BheWxvYWTESpcCM8Qg6LOkOu/1oCd8akJuLdoCTBtynjEo0E6/dn6CMQ0R51zEIHoBSC19cYv4QBehFZIYK1+MM5c5vGVGEoukY0vYT5wtAgHCo3NpZ8RAfMCT7OKbEtCvEM7DO9MNPJ9/poaFdpi7PEB26T0VF6HVjCYSYJaXOuzMeStYaXQgcuepIfOXSHKY3ZEwKNArCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJBN7Ji33TKj8UbUTV2xItpUt1xQV2N7NAKcm0qz5hyAo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ytjohn
+
+==================================================================
