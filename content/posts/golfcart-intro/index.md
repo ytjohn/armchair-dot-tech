@@ -1,3 +1,4 @@
+---
 title: "Golf Cart project intro
 author: ytjohn
 date: 2019-03-23T10:09:59-04:00
@@ -6,7 +7,7 @@ tags:
  - clubcar
  - golfcart
  - alltrax500
-
+---
 
 This is an intro to my newest project. I picked up a 1999 Club Car DS "project cart". It has an A-Frame 6" lift kit, 22" tires, a 10HP motor and an Alltrax DCX 500A controller. I have "all the parts" but the wiring needs completed, batteries added, and finally put back together. My goal is to have a silent EV for roaming around my property.
 
