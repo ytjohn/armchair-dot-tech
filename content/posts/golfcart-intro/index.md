@@ -18,6 +18,6 @@ Parts in use:
 
 * [Admiral MOT-A2 10HP](http://www.golfcart.com/pc_product_detail.asp?key=8950397857DE46128B1D3AFB8F8B7182)
 * [Alltrax DCX 500Amp controller](https://alltraxinc.com/dcx-products/)
-* [Solenoid (OL-48V-400A  / mzj-400a/013 )](https://www.cartpartsrus.com/AllTrax/sol400spec.pdf}
+* [Solenoid OL-48V-400A / mzj-400a/013](https://www.cartpartsrus.com/AllTrax/sol400spec.pdf)
 
 
