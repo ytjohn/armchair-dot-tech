@@ -1,24 +1,21 @@
 # Hugo variables
 #
 baseurl = "https://www.armchair.tech/"
-languageCode = "en-us"
+baseURL = "https://www.armchair.tech/"
+
+
+languageCode = "en"
+defaultContentLanguage = "en"
+
+
 title = "armchair.tech"
-# theme = "retrofulhugo"
-theme = "hyde-hyde"
-# theme = "hyde"
-# theme = "after-dark"
-# theme = "strange-case"
-# theme = "casper-two"
-# theme = "hugo-flex"
-# theme = "base16"
-# theme = "casper"
+theme = "KeepIt"
 
 # number of posts to show on home/category/tag pages (Default: 10)
 paginate = 6
 # optionally override the site's footer with custom copyright text
 # copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
 copyright = ""
-
 
 
 [outputs]
@@ -36,16 +33,19 @@ copyright = ""
 [params]
     author = "John Hogenmiller"
     title = "Armchair Technician"
+    #  home_mode = "posts"
     # description = "Just your average, ordinary, everyday, super admin."
     subtitle =  "Just your average, ordinary, everyday, super admin."
-    authorimage = "/img/ytjohnthumbnail.png"
-    logo = "img/ytjohnthumbnail.png"
+    # authorimage = "/img/ytjohnthumbnail.png"
+    avatar = "/img/ytjohnthumbnail.png"
+    # logo = "img/ytjohnthumbnail.png"
     copyright = "John Hogenmiller"
     dateformat = "2006-01-02"
     sourceurl = "https://gitlab.com/ytjohn/armchairdottech/tree/master/content" 
     highlightjs = true
     # highlightjsstyle = "github"
     highlightjsstyle = "tomorrow-night-bright"
+    socialShare = true
 
     # themeColor = "theme-base-0b"
     # themeColor = "theme-base-yt01"
@@ -61,7 +61,15 @@ copyright = ""
     orgDescription = "Just your average, ordinary, everyday, super admin."
 
     # singleViewStyle = "casper"
-
+  [params.image]
+    url = "img/ytjohnthumbnail.png"
+    width = 800
+    height = 600
+  [params.logo]
+    url = "img/ytjohnthumbnail.png"
+    width = 127
+    height = 40
+  
 ## Social Accounts
 [params.social]
     keybase = "ytjohn"
@@ -70,6 +78,12 @@ copyright = ""
     twitter = "thearmchairtech"
     stackoverflow = "ytjohn"
     email = "john@yourtech.us"
+
+[params.share]
+  Twitter = true
+  Facebook = true
+  #Reddit = true
+  Linkedin = true
 
 [[menu.main]]
     name = "All Posts"
@@ -81,7 +95,3 @@ copyright = ""
     identifier = "about"
     weight = 200
     url = "/about/"
-[[menu.main]]
-  name = "armchair.dev"
-  url = "https://www.armchair.dev"
-  weight = 200
