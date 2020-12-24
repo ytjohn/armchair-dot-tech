@@ -1,13 +1,14 @@
 body {
-    font-family: Consolas, Monospace, Courier;
+    /* font-family: , Monospace, 'Courier New'; */
     /* Linux = DejaVu Sans Mono */
     /* MacOSX & Windows = Courier */
-    font-size: 16px;
+    /* font-family: 'Lucida Console', Monospace, 'Courier';
+    font-size:1.1vw; */
     background: #e7e7e2;
 }
 
 div.wrapper {
-    max-width: 900px;
+    max-width: 89%;
     background: #F5F5F0;
     margin: 0 auto;
     padding-left: 2%;
@@ -33,10 +34,13 @@ sup {
 }
 
 pre {
-    font-family: Consolas, Monospace, Courier;
+    /* font-family: Consolas, Monospace, Courier; */
     /* Linux = DejaVu Sans Mono */
     /* MacOSX & Windows = Courier */
-    font-size: 16px;
+
+    /* font-size: 16px; */
+    font-family: 'Lucida Console', Monospace, 'Courier';
+    font-size:1.1vw;
     background-color: white;
     border: 1px solid Black;
     padding-left: 2%;
@@ -54,15 +58,10 @@ div.heading {
     text-decoration: none;
 }
 
-@media (max-width: 600px) {
-    /* For small screen decices */
-    * {
-        font-size: 14px;
-    }
-    pre {
-        font-size: 13px;
-    }
-}
+/* font-family: 'Lucida Console', Monospace, 'Courier';
+font-size:1.1vw; */
+
+
 
 blockquote {
     background-color: #f3f3f3;
@@ -96,7 +95,7 @@ img {
 }
 
 img.site-logo {
-    width: 100px;
+    width: 2.1%;
     vertical-align: middle;
 }
 

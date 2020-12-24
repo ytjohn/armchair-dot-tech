@@ -16,8 +16,8 @@ I am planning a new amateur radio go-kit. I've made a number of these over the y
 
 This started when a friend gave me a computer case which measures 11" x 11.75", give or take 1/8 inch. I first tried putting my Yaesu 857 inside it. I wanted to put the radio, a power supply, a tuner, and the SCU-17 soundcard interface, and then be able to set a laptop on the top. This did not work out. The radio and tuner fit in, but not the soundcard interface. I could have put a power supply in, but unless I can put "all the things" in one box, I don't want to deal with it. I just wanted some ports for the antenna and a usb cable to come out of it. Then I could connect the whole thing to either house or car power.
 
-![all together](yaesu857inboxwithlaptop.jpg)
-![scu-17 does not fit](yaesu857noroomforinterface.jpg)
+![all together](yaesu857inboxwithlaptop.webp#center)
+![scu-17 does not fit](yaesu857noroomforinterface.webp#center)
 
 This highlights the most common problem building go-kits. You often run out of space. This time around, I decided to go ahead and try my hand at 3D modeling. I will draw out the case and everything I plan to put in it, then see if it fits. I'll use Fusion 360. It's free for educational and hobbyists (and companies that make less than $100k in revenues).  You absolutely need a mouse with a middle button to use it effectively. I couldn't figure any of it out till I watched [this tutorial for absolute beginners](https://www.youtube.com/watch?v=A5bc9c3S12g).
 
@@ -46,12 +46,12 @@ After I added the decal of the power outlets (it's two separate pictures), I saw
 
 It's like you need to get things attached to a face correctly the first time or it becomes hard to change it. You get a lot of options when placing an item, and you can see exactly where you're placing it, but once you hit enter, you may or may not be able to change it again. Ok, I'm 100% certain you can, but my limited experience is making it difficult.
 
-![The face of the inverter](inverterface.png)
+![The face of the inverter](inverterface.webp#center)
 
 Last night, I tried adding a solar charger (epic pwrgate), and to start labeling the components by adding text to the faces. Somehow adding text to the battery's top face didn't work the first time, so I did it again. After zooming out, I found the first attempt way off in lala-land and I while I was able to move it back, deleting it would fail. Also, I can't yet figure out how to set the text color, just the font and style.
 
-![Overhead view with the pwrgate and text](overheadwithtext.png)
+![Overhead view with the pwrgate and text](overheadwithtext.webp#center)
 
 Also, there are some ghost planes/faces floating around that I encounter sometimes.
 
-![ghost faces](inverterwithghostfaces.png)
+![ghost faces](inverterwithghostfaces.webp#center)
