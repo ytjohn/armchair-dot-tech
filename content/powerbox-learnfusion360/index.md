@@ -5,13 +5,12 @@ date: 2019-03-23T10:09:59-04:00
 draft: false
 tags:
  - powerbox
- - 3d
  - fusion360
  - hamradio
  - gokits
 ---
 
-![Powerbox in 3D](renderedpowerbox.png)
+![Powerbox in 3D](renderedpowerbox.webp)
 
 I am planning a new amateur radio go-kit. I've made a number of these over the years. I have a lot of fun making them, and then I get a new radio or come up with a "better" idea. So just like someone on their 4th marriage, I'm getting really good at making go kits. This go kit is a slightly different take. In fact, it's actually a power box. <!--more-->There will a power supply, a 20Ah LifePo4 battery, an inverter, usb outlets, and a number of 12v outlets. The idea is that this will run off of mains current, internal battery, and solar. The top will be flat, allowing a radio to be strapped down to the powerbox. If I can find room, I will probably try to include a 12v to 19v laptop charger, targetting my Lenovo x220.
 
