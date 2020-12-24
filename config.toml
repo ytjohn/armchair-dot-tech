@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
 
 
 title = "armchair.tech"
-theme = "KeepIt"
+theme = "flatarm"
 
 # number of posts to show on home/category/tag pages (Default: 10)
 paginate = 6
@@ -19,31 +19,25 @@ copyright = ""
 
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
 
 [taxonomies]
    tag = "tags"
    category = "categories"
 
 [permalinks]
-  posts = "/posts/:slug/"
   page = "/:slug/"
 
 ## Site Settings
 [params]
     author = "John Hogenmiller"
     title = "Armchair Technician"
-    #  home_mode = "posts"
-    # description = "Just your average, ordinary, everyday, super admin."
     subtitle =  "Just your average, ordinary, everyday, super admin."
-    # authorimage = "/img/ytjohnthumbnail.png"
     avatar = "/img/ytjohnthumbnail.png"
-    # logo = "img/ytjohnthumbnail.png"
     copyright = "John Hogenmiller"
     dateformat = "2006-01-02"
     sourceurl = "https://gitlab.com/ytjohn/armchairdottech/tree/master/content" 
     highlightjs = true
-    # highlightjsstyle = "github"
     highlightjsstyle = "tomorrow-night-bright"
     socialShare = true
 
@@ -85,13 +79,3 @@ copyright = ""
   #Reddit = true
   Linkedin = true
 
-[[menu.main]]
-    name = "All Posts"
-    weight = 100
-    identifier = "posts"
-    url = "/posts/"
-[[menu.main]]
-    name = "About"
-    identifier = "about"
-    weight = 200
-    url = "/about/"

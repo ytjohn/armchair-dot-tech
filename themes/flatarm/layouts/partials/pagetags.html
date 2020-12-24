@@ -1,0 +1,1 @@
+{{- range $tagname  := .Params.tags }}<a href="{{ "/tags/" | relLangURL}}{{ $tagname | urlize }}">#{{ $tagname }}</a> {{ end }}
