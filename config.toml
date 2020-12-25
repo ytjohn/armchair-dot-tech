@@ -1,7 +1,6 @@
 # Hugo variables
 #
-baseurl = "https://www.armchair.tech/"
-baseURL = "https://www.armchair.tech/"
+baseURL = "https://armchair.tech/"
 
 
 languageCode = "en"
