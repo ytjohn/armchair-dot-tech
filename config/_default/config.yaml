@@ -1,0 +1,68 @@
+baseURL: /
+copyright: "Copyright © 2016-2023 John Hogenmiller. All Rights Reserved."
+# theme: minimarm
+theme: flatarm
+title: armchair dot tech
+
+permalinks:
+  page: /:slug/
+taxonomies:
+  category: categories
+  tag: tags
+
+
+defaultContentLanguage: en
+languageCode: en
+outputs:
+  home:
+  - HTML
+  - RSS
+paginate: 10
+params:
+  author: John Hogenmiller
+  authorAvatar: /img/ytjohnthumbnail.png
+  authorDescription: Just your average, ordinary, everyday, super admin.
+  authorLocation: Western, PA
+  authorWebsite: https://armchair.tech
+  avatar: /img/ytjohnthumbnail.png
+  copyright: John Hogenmiller
+  dateformat: '2006-01-02'
+  highlightjs: true
+  highlightjsstyle: tomorrow-night-bright
+  image:
+    height: 600
+    url: img/ytjohnthumbnail.png
+    width: 800
+  logo:
+    height: 40
+    url: img/ytjohnthumbnail.png
+    width: 127
+  orgDescription: Just your average, ordinary, everyday, super admin.
+  orgWebsite: https://armchair.tech
+  share:
+    Facebook: true
+    Linkedin: true
+    Twitter: true
+  social:
+    - name: "twitter"
+      url: "https://twitter.com/thearmchairtech"
+    - name: "email"
+      url: "mailto:john@yourtech.us"
+    - name: "github"
+      url: "https://github.com/mivinci/hugo-theme-minima"
+    - name: "rss"
+      url: "/index.xml"
+  # social:
+  #   email: john@yourtech.us
+  #   github: ytjohn
+  #   gitlab: ytjohn
+  #   keybase: ytjohn
+  #   stackoverflow: ytjohn
+  #   twitter: thearmchairtech
+  # socialShare: true
+  sourceurl: https://gitlab.com/ytjohn/armchairdottech/tree/master/content
+  subtitle: Just your average, ordinary, everyday, super admin.
+  title: Armchair Technician
+  diagram:  
+    enable: true
+    provider: mermaid
