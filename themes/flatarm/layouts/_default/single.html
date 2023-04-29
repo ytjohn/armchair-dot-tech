@@ -1,10 +1,10 @@
 {{ define "title" }}
-  {{ .Title }} &ndash; {{ .Site.Title }}
+{{ .Title }} &ndash; {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
 <div style="margin-bottom: 3ch;text-transform: none;">
-    {{ .Date.Format "January 2, 2006" }} | 
-    TAGS: {{ partial "pagetags.html" . }}
+  {{ .Date.Format "January 2, 2006" }} |
+  TAGS: {{ partial "pagetags.html" . }}
 </div>
-  {{ .Content }}
+{{ .Content }}
 {{ end }}

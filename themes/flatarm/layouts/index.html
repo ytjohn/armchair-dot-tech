@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") 100 }}
+
+<main>
+
+    {{ template "_internal/pagination.html" . }}
+
+    <p style="text-align: left;margin-bottom: 1ch;">
+        {{ .Content }}
+    </p>
+    {{ range $paginator.Pages }}
+    <p>
+        <a href="{{ .Permalink }}"> {{ .Title }}</a>
+        {{ if .Summary }}
+        ({{ partial "pagetags.html" . }}) <i> {{ .Date.Format "2006-01-02" }}</i>
+        <br>
+        <quote>{{ .Summary }}</quote>
+        {{ end }}
+    </p>
+    {{- end }}
+    {{ template "_internal/pagination.html" . }}
+</main>
+
+{{ end }}

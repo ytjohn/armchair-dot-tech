@@ -4,10 +4,15 @@
         {{ .Content }}
 
         {{- range .Pages }}
-        {{ .Date.Format "2006-01-02" }} | <a href="{{ .Permalink }}"> {{ .Title }}</a> |
-        ({{ partial "pagetags.html" . }})
+    <p>
+        <a href="{{ .Permalink }}"> {{ .Title }}</a>
+        {{ if .Summary }}
+        ({{ partial "pagetags.html" . }}) <i> {{ .Date.Format "2006-01-02" }}</i>
         <br>
-        {{- end }}
+        <quote>{{ .Summary }}</quote>
+        {{ end }}
+    </p>
+    {{- end }}
     </p>
 </main>
 {{ end }}
