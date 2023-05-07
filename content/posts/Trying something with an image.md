@@ -2,7 +2,7 @@
 title: Six weeks of spring
 slug: six-weeks-of-spring
 author: ytjohn
-date: 2023-02-22T00:00:00-05:00
+date: 2023-05-07T00:00:00-05:00
 tags: [test]
 created: 2023-05-07T19:15:57-04:00
 modified: 2023-05-07T19:24:49-04:00
