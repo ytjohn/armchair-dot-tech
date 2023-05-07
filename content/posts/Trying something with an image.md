@@ -12,4 +12,4 @@ modified: 2023-05-07T19:24:49-04:00
 
 Six more weeks of spring. 
 
-![image](bab21d8b87eb0a869c6096ab82ae3fae.jpg)
+![image](/bab21d8b87eb0a869c6096ab82ae3fae.jpg)
