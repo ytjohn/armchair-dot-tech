@@ -7,11 +7,11 @@ body {
     background: #e7e7e2;
 }
 
-.pagination-default ul {
+.pagination ul {
     display: inline;
 }
 
-.pagination-default li {
+.pagination li {
     /* float: right; */
     display: inline;
 }
