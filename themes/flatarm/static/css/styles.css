@@ -7,6 +7,15 @@ body {
     background: #e7e7e2;
 }
 
+.pagination-default ul {
+    display: inline;
+}
+
+.pagination-default li {
+    /* float: right; */
+    display: inline;
+}
+
 
 
 div.wrapper {
@@ -84,7 +93,8 @@ blockquote div {
     width: 100%;
 }
 
-img.pixel, canvas.pixel {
+img.pixel,
+canvas.pixel {
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
