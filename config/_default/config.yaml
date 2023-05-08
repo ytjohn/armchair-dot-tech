@@ -1,15 +1,12 @@
 baseURL: /
 copyright: "Copyright © 2016-2023 John Hogenmiller. All Rights Reserved."
 # theme: minimarm
-theme: flatarm
+theme: ["flatarm"]
 title: armchair dot tech
 
-permalinks:
-  page: /:slug/
-taxonomies:
-  category: categories
-  tag: tags
-
+module:
+  imports:
+    - path: github.com/rootwork/hugo-module-gallery-grid
 
 defaultContentLanguage: en
 languageCode: en
