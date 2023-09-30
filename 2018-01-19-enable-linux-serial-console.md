@@ -1,5 +1,6 @@
----
+# enable linux serial console
 
+---
 title: Enable linux serial console
 author: ytjohn
 date: 2018-01-19 12:40:36
@@ -42,4 +43,3 @@ ssh <idrac-ip> console com2
 ```
 
 
-#yourtech-dailies
